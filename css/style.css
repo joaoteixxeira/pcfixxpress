@@ -125,7 +125,8 @@ a { color: var(--accent); text-decoration: none; }
   font-size: 1.3rem;
   margin-right: auto;
 }
-.logo-mark { color: var(--accent); display: flex; }
+/* logo.png is black on transparent; invert it to white for the dark header */
+.logo-img { height: 44px; width: auto; filter: invert(1); }
 
 .main-nav { display: flex; gap: 28px; }
 .main-nav a { color: var(--text-muted); font-size: 0.95rem; }
