@@ -1,4 +1,4 @@
-# PC FixXpress — site
+# PC FixXpress
 
 Static site, no build step. `index.html`, `css/style.css`, `js/main.js`.
 
@@ -17,14 +17,14 @@ git init
 git add .
 git commit -m "Initial site"
 git branch -M main
-git remote add origin https://github.com/<your-username>/pcfixxpress-site.git
+git remote add origin https://github.com/joaoteixxeira/pcfixxpress.git
 git push -u origin main
 ```
 
 ## Deploy on Cloudflare Pages
 
 1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-2. Pick the `pcfixxpress-site` repo.
+2. Pick the `pcfixxpress` repo.
 3. Build settings: framework preset **None**, build command **(leave blank)**, build output directory **`/`**.
 4. Deploy. Cloudflare gives you a `*.pages.dev` URL first — check the draft there.
 
@@ -44,7 +44,7 @@ git push -u origin main
 
 Depois do primeiro `git push` (secção "Push to GitHub" acima), a pasta no seu computador **é** a cópia de trabalho — não precisa de a recriar. Fluxo a partir daí:
 
-1. Abra a pasta `pcfixxpress-site` no seu computador (num editor como o VS Code, ou só num explorador de ficheiros) e edite `index.html`, `css/style.css` ou `js/main.js` normalmente.
+1. Abra a pasta `pcfixxpress` no seu computador (num editor como o VS Code, ou só num explorador de ficheiros) e edite `index.html`, `css/style.css` ou `js/main.js` normalmente.
 2. Abra um terminal dentro dessa pasta e confirme o que mudou:
    ```bash
    git status
