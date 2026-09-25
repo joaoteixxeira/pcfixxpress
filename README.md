@@ -62,6 +62,6 @@ Depois do primeiro `git push` (secção "Push to GitHub" acima), a pasta no seu 
 
 Se algum dia trabalhar noutro computador (ou apagar a pasta por engano), recupera a cópia local com:
 ```bash
-git clone https://github.com/<o-seu-utilizador>/pcfixxpress-site.git
+git clone https://github.com/<o-seu-utilizador>/pcfixxpress.git
 ```
 
