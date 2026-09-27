@@ -21,7 +21,7 @@ const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 // Contact form: progressive enhancement.
-// Works as a plain POST to Formspree even without JS.
+// Works as a plain POST to web3forms even without JS.
 // With JS, submits via fetch and shows an inline confirmation instead of navigating away.
 const form = document.getElementById("contactForm");
 const formNote = document.getElementById("formNote");
